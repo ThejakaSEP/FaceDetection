@@ -9,8 +9,6 @@ mpFaceDetection = mp.solutions.face_detection
 mpDraw = mp.solutions.drawing_utils
 faceDetection = mpFaceDetection.FaceDetection()
 
-
-
 while True:
     success,img = cap.read() # Will give us our fram
 
